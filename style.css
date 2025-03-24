@@ -10,6 +10,7 @@
     top: 18%;
     background-color: #3f0666dc;
     color: #fff;
+    font-size: 20px;
 }
 button{
     border: none;
@@ -26,6 +27,20 @@ button{
     background: rgb(117, 117, 255);
     color: #fff;
 
+}
+i{
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 27%;
+    bottom: 0%;
+    text-align: center;
+    background: #23b1f3;
+    color: white;
 }
 img{
     border: none;
@@ -54,7 +69,7 @@ img{
 }
 input:focus{
     border:none;
-    outline: none;
+    outline: none; 
     background-color: #dff1f8;
 }
 
@@ -63,7 +78,6 @@ input:focus{
         margin-top: 60px;
         width: 50%;
         padding: auto;
-       
 }
 li{
     list-style-type: none;
